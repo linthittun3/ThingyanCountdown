@@ -83,3 +83,31 @@ body{
 .countdown div#second::before{
     content: 'Seconds';
 }
+
+@media (max-width: 600px) {
+	.container{
+		position: block;
+		top: 80px;
+		left: auto;
+		right: auto;
+		bottom: 80px;
+		width: fit-content;
+		padding-top: 10px;
+		/* background: url("pic.jpg"); */
+		height: 525px;
+		background-attachment: fixed;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		background-repeat: no-repeat;
+		background-position: center;
+		box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5),
+					0 0 0 100px rgba(0,0,0,.1);
+	}
+	.countdown div {
+		width: 50px;
+		font-size: 2em;
+	}
+
+}
