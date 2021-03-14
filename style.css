@@ -33,7 +33,7 @@ body{
     text-align: center;
     font-size: 10em;
     line-height: -80px;
-    color: #333;
+    color: #fff;
     margin-top: -80px;
 }
 .container h2 span{
@@ -41,6 +41,9 @@ body{
     font-weight: 300;
     letter-spacing: 6px;
     font-size: 0.2em;
+}
+#yrs{
+    color: #333;
 }
 .countdown{
     display: flex;
@@ -52,7 +55,7 @@ body{
     height: 100px;
     line-height: 100px;
     text-align: center;
-    background: #333;
+/*     background: #333; */
     color: #fff;
     margin: 0 15px;
     font-size: 3em;
